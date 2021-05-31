@@ -1,27 +1,24 @@
-# AngularTodoApp
+# Bloc Note
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.2.
+## Informations
 
-## Development server
+Premier projet avec le Framework Angular en suivant le [tutoriel](https://www.youtube.com/watch?v=gvWxMQ_Zios&t=3168s) de [Devstackr](https://github.com/Devstackr). Le but est de créer une application pour ajouter, modifier, rechercher et supprimer des notes.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+**date de début :** 26/04/2021
 
-## Code scaffolding
+## Développeur
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Noé PHILIPPE
 
-## Build
+## Langages
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+SCSS, HTML5, Javascript
 
-## Running unit tests
+## Framework
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+**Javascript :** Angular  
+**CSS :** Bulma
 
-## Running end-to-end tests
+## Responsive
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Oui
