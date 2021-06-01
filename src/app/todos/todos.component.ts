@@ -10,22 +10,22 @@ import { NgForm } from '@angular/forms';
 })
 export class TodosComponent implements OnInit {
 
-  todos: Todo[] = [];
+  todos: Todo[] = []
+  showValidationErrors: boolean = false
 
   constructor(private dataService: DataService) { }
 
   ngOnInit(): void {
-     this.todos = this.dataService.getAllTodos()
+    this.todos = this.dataService.getAllTodos()
   }
 
   onFormSubmit(form: NgForm){
-     console.log("FORM SUBMITTED")
-     console.log(form)
-
-     if (form.invalid) return alert("Form is invalid !")
-
-     this.dataService.addTodo(new Todo(form.value.text))
-
- }
+    if (form.invalid){
+      return this.showValidationErrors = true
+    }
+    this.dataService.addTodo(new Todo(form.value.text))
+    form.reset()
+    return this.showValidationErrors
+  }
 
 }
